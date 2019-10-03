@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav {
+  background-color: white;
+
+  z-index: 1;
+  position: relative;
+}
+.material-icons {
+  color: rgb(61, 196, 184);
+  height: 100%;
+}
+#left {
+  border-right: 1px solid rgb(180, 180, 180);
+}
+#right {
+  border-left: 1px solid rgb(180, 180, 180);
+}
+ul {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+#nav-right {
+  height: 100%;
+  width: 15%;
+  display: inline-block;
+}
+#navigation {
+  border-top: 2px solid gray;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+#search-nav {
+  width: 80%;
+  height: 100%;
+}
+#add-nav {
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+button {
+  background-color: white;
+  border: none;
+  margin-left: 25px;
+  height: 100%;
+}
+button:hover {
+  cursor: pointer;
+}
+#dashboard {
+  width: 80%;
+}
+@media only screen and (max-width: 600px) {
+  #form,
+  #details {
+    border-top: 1px solid rgb(180, 180, 180);
+  }
+  #notesList {
+    margin-bottom: 10px;
+  }
+  #details {
+    padding-top: 15px;
+  }
+}
+
+#drop {
+  display: flex;
+}
+#drop button {
+  background-color: transparent;
+  margin-top: 0;
+  margin-left: 1.3em;
+  height: 30px;
+  width: 4rem;
+  text-align: center;
+}
