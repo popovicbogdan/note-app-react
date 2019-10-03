@@ -33,7 +33,6 @@ class ItemForm extends React.Component {
       });
       e.target.value = "";
     }
-    // console.log("note saved ", this.state.notes);
   }
   // prevents enter from submitting form when a note is added, adds object to the store, and resets the state
   handleSubmit(e) {
@@ -75,7 +74,7 @@ class ItemForm extends React.Component {
         </li>
       ))
     ) : (
-      <p>Add a note </p>
+      <p id="add_note">Add a note </p>
     );
     const title = this.state.title.length ? (
       <h5>{this.state.title}</h5>

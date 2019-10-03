@@ -51,4 +51,3 @@ export default connect(
   null,
   mapDispatchToProps
 )(Dropdown);
-// id="dropdown1"
